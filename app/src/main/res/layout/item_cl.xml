@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="30px"
+    android:paddingBottom="30px"
+    android:background="@drawable/page_list_bg">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="48px"
+        android:text="测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/r_tech_author"
+        android:layout_centerVertical="true"
+        android:textColor="#006699"
+        android:layout_marginLeft="35px"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/r_tech_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25px"
+        android:layout_marginStart="25px">
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是你成"
+            android:textSize="45px"
+            android:textColor="@color/colorAuthor"
+            android:layout_marginBottom="15px"
+            android:layout_centerHorizontal="true"/>
+
+
+        <com.goxod.freedom.view.custom.IconView
+            android:id="@+id/reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/author"
+            android:text="8"
+            android:textSize="40px"
+            android:textColor="@color/colorReply"
+            android:layout_centerHorizontal="true" />
+
+
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_below="@id/reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-02-19"
+            android:textSize="35px"
+            android:textColor="@color/colorGrey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15px" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

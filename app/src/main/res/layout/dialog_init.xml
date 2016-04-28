@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/init_l_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <CheckBox
+            android:id="@+id/init_cb_c"
+            android:text="自定义"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+        <TextView
+            android:id="@+id/init_btn_c"
+            android:text="@string/btn_server_test"
+            android:textSize="45px"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:id="@+id/init_tv_c"
+            android:layout_toRightOf="@id/init_cb_c"
+            android:layout_toLeftOf="@id/init_btn_c"
+            android:gravity="center"
+            android:textSize="45px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/init_l_o"
+        android:layout_below="@+id/init_l_c"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/init_cb_o"
+            android:text="官    方"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+        <TextView
+            android:id="@+id/init_tv_o"
+            android:layout_toRightOf="@id/init_cb_o"
+            android:gravity="center"
+            android:textSize="45px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/init_l_1"
+        android:layout_below="@+id/init_l_o"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/init_cb_1"
+            android:text="追踪一"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+
+        <TextView
+            android:id="@+id/init_tv_1"
+            android:layout_toRightOf="@id/init_cb_1"
+            android:gravity="center"
+            android:textSize="45px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/init_l_2"
+        android:layout_below="@+id/init_l_1"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/init_cb_2"
+            android:text="追踪二"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+        <TextView
+            android:id="@+id/init_tv_2"
+            android:layout_toRightOf="@id/init_cb_2"
+            android:gravity="center"
+            android:textSize="45px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/init_txt"
+        android:layout_marginTop="50px"
+        android:layout_below="@id/init_l_2"
+        android:textSize="45px"
+        android:text="@string/init_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

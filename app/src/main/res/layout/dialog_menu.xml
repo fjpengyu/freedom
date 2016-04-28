@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/l_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_server"
+            android:textColor="#95000000"
+            android:textSize="50px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/tv_is_official"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/sw_server"
+            android:textColor="#80000000"
+            android:textSize="35px"
+            android:text="@string/tv_official"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30px"/>
+
+        <Switch
+            android:id="@+id/sw_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/l_et_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l_server">
+
+        <TextView
+            android:id="@+id/btn_server_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="45px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30px"
+            android:layout_marginLeft="45px"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/et_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:inputType="textUri"
+            android:gravity="center"
+            android:layout_toLeftOf="@id/btn_server_test"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <View
+        android:id="@+id/v_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/l_et_server"
+        android:layout_marginTop="1px"
+        android:layout_marginBottom="1px"/>
+
+    <RelativeLayout
+        android:id="@+id/l_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_1">
+        <TextView
+            android:id="@+id/tv_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_mode_list"
+            android:textColor="#95000000"
+            android:textSize="50px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+        <com.goxod.freedom.view.custom.AutoSpinner
+            android:id="@+id/sp_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/v_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/l_list"
+        android:layout_marginTop="1px"
+        android:layout_marginBottom="1px"/>
+
+    <RelativeLayout
+        android:id="@+id/l_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_2">
+        <TextView
+            android:id="@+id/tv_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_first_page"
+            android:textColor="#95000000"
+            android:textSize="50px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+        <com.goxod.freedom.view.custom.AutoSpinner
+            android:id="@+id/sp_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/l_first"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="20px"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/l_folder"
+        android:layout_below="@id/v_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_folder"
+            android:textColor="#95000000"
+            android:textSize="50px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+
+        <TextView
+            android:id="@+id/btn_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_folder_modify"
+            android:textSize="45px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30px"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_folder_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_folder"
+        android:textSize="40px"
+        android:ellipsize="start"
+        android:singleLine="true"
+        />
+
+
+    <View
+        android:id="@+id/v_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_folder_path"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/l_cache"
+        android:layout_below="@id/v_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_cache"
+            android:textColor="#95000000"
+            android:textSize="50px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_cache_size"
+            android:textColor="#95000000"
+            android:textSize="35px"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45px"
+            android:layout_toLeftOf="@+id/btn_cache"/>
+
+
+        <TextView
+            android:id="@+id/btn_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clean_cache"
+            android:textSize="45px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30px"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/l_cache"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        />
+
+    <RelativeLayout
+        android:id="@+id/l_update"
+        android:layout_below="@id/v_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_update"
+            android:textColor="#95000000"
+            android:textSize="50px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tv_is_auto_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/sw_update"
+            android:textColor="#80000000"
+            android:textSize="35px"
+            android:text="@string/manual_update"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30px"/>
+
+        <Switch
+            android:id="@+id/sw_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/v_5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/l_update"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        />
+
+    <RelativeLayout
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_5"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/tv_03"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45px"
+            android:text="@string/version_name"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_04"
+            android:layout_below="@id/tv_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45px"
+            android:text="&#169;Freedom"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

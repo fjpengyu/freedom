@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/colorPrimary" >
+        <shape>
+            <solid android:color="@color/listPress" />
+            <stroke android:width="1dp"
+                android:color="@color/colorGreen"/>
+            <corners android:topLeftRadius="20px"
+                android:topRightRadius="20px"
+                android:bottomRightRadius="20px"
+                android:bottomLeftRadius="20px"/>
+        </shape>
+    </item>
+    <item android:state_focused="true" android:color="@color/colorPrimary" >
+        <shape>
+            <solid android:color="@color/listPress" />
+            <stroke android:width="1dp"
+                android:color="@color/colorGreen"/>
+            <corners android:topLeftRadius="20px"
+                android:topRightRadius="20px"
+                android:bottomRightRadius="20px"
+                android:bottomLeftRadius="20px"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:color="@color/colorPrimary" >
+        <shape>
+            <solid android:color="@color/listPress" />
+            <stroke android:width="1dp"
+                android:color="@color/colorGreen"/>
+            <corners android:topLeftRadius="20px"
+                android:topRightRadius="20px"
+                android:bottomRightRadius="20px"
+                android:bottomLeftRadius="20px"/>
+        </shape>
+
+    </item>
+    <item android:color="@color/shareHint" >
+        <shape>
+            <solid android:color="@color/itemBg" />
+            <corners android:topLeftRadius="20px"
+                android:topRightRadius="20px"
+                android:bottomRightRadius="20px"
+                android:bottomLeftRadius="20px"/>
+        </shape>
+    </item>
+</selector>

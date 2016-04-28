@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="version_name">v1.4.2</string>
+    <string name="version_url">http://free.goxod.com/freedom.json</string>
+
+    <string-array name="change_log">
+        <item>v1.4.2</item>
+        <item>1.优化过滤器组件</item>
+        <item>2.修正一些bug</item>
+        <item>v1.4.1</item>
+        <item>1.不再适配Android 4.4以下机型</item>
+        <item>2.修正部分机型适配</item>
+        <item>3.调整部分UI内容</item>
+        <item>v1.4.0</item>
+        <item>1.优化域名获取机制</item>
+        <item>2.修正页面跳转错误</item>
+        <item>v1.3.9</item>
+        <item>1.新增阅读记录功能</item>
+        <item>&#160;&#160;&#160;&#160;长按标题栏可清空当前列表阅读记录,清空缓存则全部清空阅读记录(设置->软件缓存)</item>
+        <item>2.新增崩溃日志收集</item>
+        <item>&#160;&#160;&#160;仅崩溃时收集错误报告(定位可禁止)</item>
+        <item>3.合并妹子图板块(左右滑动)</item>
+        <item>4.调整默认启动页为自拍页</item>
+        <item>5.优化页面左右切换卡顿问题</item>
+        <item>v1.3.8</item>
+        <item>1.新增侧滑菜单栏</item>
+        <item>2.新增妹子图福利资源</item>
+        <item>3.调整栏目分类</item>
+        <item>4.优化图片显示模式</item>
+        <item>5.优化软件内存控制</item>
+        <item>6.优化各类按钮点击精确度</item>
+        <item>7.修正清理缓存直接崩溃问题</item>
+        <item>8.修改首次启动页为清纯妹子</item>
+        <item>v1.3.7</item>
+        <item>1.新增免代理服务器自动获取功能</item>
+        <item>2.优化APP首次启动设置选项</item>
+        <item>3.优化域名切换时的请求逻辑</item>
+        <item>4.优化APP启动速度</item>
+        <item>v1.3.6</item>
+        <item>1.新增tumblr视频下载功能</item>
+        <item>2.修正magnet链接复制功能</item>
+        <item>3.修正初始化超时问题</item>
+        <item>4.修正内页文章标题显示</item>
+        <item>5.修正内页文章收藏错误问题</item>
+        <item>v1.3.5</item>
+        <item>1.新增长按帖子标题复制链接功能</item>
+        <item>2.新增外部链接复制功能</item>
+        <item>3.优化帖子内页跳转问题</item>
+        <item>v1.3.4</item>
+        <item>1.紧急修正初始化失败问题</item>
+        <item>v1.3.3</item>
+        <item>1.新增技术区评论浏览</item>
+        <item>2.新增技术区页码跳转(按下部页码呼出)</item>
+        <item>3.新增页面缓存功能</item>
+        <item>4.新增已看页码收藏(按爱心呼出)</item>
+        <item>5.新增初始化界面</item>
+        <item>6.优化请求速度</item>
+        <item>7.优化省流量设置</item>
+        <item>v1.3.2</item>
+        <item>1.优化小分辨率下列表字体大小</item>
+        <item>2.修正Android M直接蹦崩溃问题</item>
+        <item>3.修正缓存最大占用比(剩余空间的1/2)</item>
+        <item>4.优化页面跳转导致崩溃问题</item>
+        <item>v1.3.1</item>
+        <item>1.更新包名与签名(自行卸载旧版本)</item>
+        <item>2.新增批量下载图片进度提示</item>
+        <item>3.新增批量下载图片按钮</item>
+        <item>4.新增版本更新后 [更新日志] 显示</item>
+        <item>5.新增禁用弹窗/双击标题启用弹窗</item>
+        <item>6.优化分享图片页面排版</item>
+        <item>7.优化版本更新功能</item>
+        <item>8.优化批量下载图片功能</item>
+        <item>9.修正缓存大小为0.0B的问题</item>
+        <item>10.修正默认启动收藏页时按钮失效</item>
+        <item>11.隐藏系统图库显示/最近添加记录</item>
+        <item>v1.3.0</item>
+        <item>1.全新优化图片加载性能</item>
+        <item>2.新增GIF分享与保存功能</item>
+        <item>3.优化页面跳转导致崩溃问题</item>
+    </string-array>
+</resources>

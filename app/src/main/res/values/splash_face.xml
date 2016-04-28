@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="splash_face">
+    <item>(ง •̀_•́)ง</item>
+    <item>ヾ(o◕∀◕)ﾉ</item>
+    <item>(●´ω｀●)φ</item>
+    <item>(｡・`ω´･)</item>
+    <item>(｡˘•ε•˘｡)</item>
+    <item>ヾ (o ° ω ° O )</item>
+    <item> ⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄.</item>
+    <item>(╭￣3￣)╭♡</item>
+    <item>(。-`ω´-)</item>
+    <item>&lt;(▰˘◡˘▰)&gt;</item>
+    <item>(≡ω≡．)</item>
+    <item>(｀･ω･´)</item>
+    <item>∑(っ °Д °;)っ</item>
+    <item>ㄟ( ▔, ▔ )ㄏ</item>
+    <item>(=￣ω￣=)</item>
+    <item>(σ｀・д･)σ</item>
+    <item>(O ^ ~ ^ O)</item>
+    <item>( &gt; c &lt; )</item>
+    <item>(・ω・=)</item>
+    <item>(* ￣ー￣)</item>
+    <item>(￣∀￣)</item>
+    <item>(＠。ε。＠)</item>
+    <item>(●′ω`●)</item>
+    <item>(〃′o`)</item>
+    <item>(′　︿　`)</item>
+    <item>(＠・ˍ・)</item>
+    <item>(。・д・。)</item>
+    <item>(・O・。)</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_angle_right">&#xf105;</string>
+    <string name="fa_heart">&#xf004;</string>
+    <string name="fa_heart_o">&#xf08a;</string>
+    <string name="fa_refresh">&#xf021;</string>
+    <string name="fa_flag_yes">&#xf11e;</string>
+    <string name="fa_flag_no">&#xf11d;</string>
+    <string name="fa_content">&#xf054;</string>
+    <string name="fa_up">&#xf077;</string>
+    <string name="fa_up_1">&#xf062;</string>
+    <string name="fa_cog">&#xf013;</string>
+    <string name="fa_copyright">&#xf1f9;</string>
+    <string name="fa_code">&#xf121;</string>
+    <string name="fa_chain">&#xf0c1;</string>
+    <string name="fa_chrome">&#xf268;</string>
+    <string name="fa_github">&#xf09b;</string>
+    <string name="fa_qq">&#xf1d6;</string>
+    <string name="fa_weixin">&#xf1d7;</string>
+    <string name="fa_save">&#xf0c7;</string>
+    <string name="fa_reply">&#xf112;</string>
+    <string name="fa_comments">&#xf27a;</string>
+    <string name="fa_arrow_up">&#xf062;</string>
+    <string name="fa_look">&#xf0e5;</string>
+    <string name="fa_bookmark">&#xf06e;</string>
+    <string name="fa_download">&#xf019;</string>
+    <string name="fa_nav">&#xf0c9;</string>
+    <string name="fa_image">&#xf03e;</string>
+    <string name="fa_camera">&#xf030;</string>
+    <string name="fa_1024">&#xf16a;</string>
+    <string name="fa_time">&#xf017;</string>
+    <string name="fa_card">&#xf09d;</string>
+
+</resources>

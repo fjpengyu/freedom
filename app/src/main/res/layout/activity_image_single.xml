@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.ImagePaperActivity"
+    android:background="@color/imageBg">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/image_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/withe"
+        android:layout_toLeftOf="@+id/image_line"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25px" />
+    <TextView
+        android:id="@+id/image_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" / "
+        android:textColor="@color/withe"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25px"/>
+    <TextView
+        android:id="@+id/image_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/withe"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25px"
+        android:layout_toRightOf="@+id/image_line"
+        />
+
+
+</RelativeLayout>

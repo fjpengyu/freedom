@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">自由年代</string>
+    <string name="app_name_en">Freedom</string>
+    <string name="double_click_tips">再按一次退出</string>
+    <string name="video_click_tips">再按一次返回</string>
+    <string name="app_title_flag">達蓋爾的旗幟</string>
+    <string name="app_title_age">新時代的我們</string>
+    <string name="app_title_tech">技術討論區</string>
+    <string name="app_title_favorite">我的收藏</string>
+    <string name="app_title_mz_zp">妹子自拍</string>
+    <string name="app_title_mz_jp">日系妹子</string>
+    <string name="app_title_mz_tw">台湾妹子</string>
+    <string name="app_title_mz_qc">清纯妹子</string>
+    <string name="app_title_mz_xg">性感妹子</string>
+    <string name="menu_1">使用官方地址</string>
+    <string name="menu_2">图片列表模式</string>
+    <string name="menu_3">这是一个测试</string>
+    <string name="menu_options">选项设置</string>
+    <string name="menu_favorite">收藏设置</string>
+    <string name="share_title">分享图片</string>
+    <string name="apply">确定</string>
+    <string name="cancel">取消</string>
+    <string name="choose_folder">选择</string>
+    <string name="save_folder">存储路径</string>
+    <string name="btn_folder_modify"><u>修改</u></string>
+    <string name="btn_server_test"><u>测试</u></string>
+    <string name="favorite_local_backup">本地备份</string>
+    <string name="favorite_remote_backup">远程备份</string>
+    <string name="favorite_local_recovery">本地恢复</string>
+    <string name="favorite_remote_recovery">远程恢复</string>
+    <string name="btn_favorite_local_backup"><u>备份</u></string>
+    <string name="btn_favorite_remote_backup"><u>云备份</u></string>
+    <string name="btn_favorite_local_recovery"><u>恢复</u></string>
+    <string name="btn_favorite_remote_recovery"><u>云恢复</u></string>
+    <string name="used_cache_size">已用:&#160;</string>
+    <string name="clean_cache"><u>清空</u></string>
+    <string name="save_all">确认保存整组图片?</string>
+    <string name="tv_official">官方</string>
+    <string name="tv_custom">自定义</string>
+    <string name="check_update"><u>版本更新</u></string>
+    <string name="change_log_title">更新日志</string>
+    <string name="clean_cache_title">清空缓存</string>
+    <string name="clean_cache_content">确认清空软件图片缓存和阅读记录?</string>
+    <string name="clean_cache_toast">缓存清理成功!</string>
+    <string name="confirm_update_title">发现新版本</string>
+    <string name="confirm_update_content">是否确认更新版本?</string>
+    <string name="confirm_update_toast">开始更新…</string>
+    <string name="cancel_update_title">取消更新</string>
+    <string name="cancel_update_content">是否取消更新?</string>
+    <string name="cancel_update_toast">已取消更新</string>
+    <string name="cancel_video_toast">以取消下载</string>
+    <string name="clean_favorite_title">是否清空收藏夹?</string>
+    <string name="clean_favorite_content">在没有备份的情况下将不可恢复!</string>
+    <string name="clean_favorite_toast">收藏夹已清空</string>
+    <string name="apply_title">是否确认取消?</string>
+    <string name="apply_content">是否确认取消?</string>
+    <string name="apply_toast">已经取消</string>
+    <string name="db_title">是否确认收藏文章?</string>
+    <string name="db_toast">收藏成功</string>
+    <string name="db_page">页码保存成功</string>
+    <string name="db_saved_title">已经收藏该文章</string>
+    <string name="db_delete_title">是否删除收藏?</string>
+    <string name="db_delete_toast">收藏删除成功</string>
+    <string name="update_check">检查更新中…</string>
+    <string name="update_check_error">检查更新失败…</string>
+    <string name="check_update_toast">没有发现新版本</string>
+    <string name="manual_update">手动检查更新</string>
+    <string name="auto_update">自动检查更新</string>
+    <string name="tv_server">域名设置</string>
+    <string name="tv_mode_list">图片模式</string>
+    <string name="tv_first_page">默认页面</string>
+    <string name="tv_cache">软件缓存</string>
+    <string name="tv_cache_size"><![CDATA[已用: ]]></string>
+    <string name="tv_update">自动更新</string>
+    <string name="txt_clean_favorite">清空收藏</string>
+    <string name="favorite">收藏文章</string>
+    <string name="ban_alert">禁止提示</string>
+    <string name="no_alert">不再提示</string>
+    <string name="current_version">当前版本:&#160;&#160;</string>
+    <string name="init_title">请选择免代理域名</string>
+    <string name="init_content">请自定义服务器</string>
+    <string name="init_txt_hint">输入服务器地址</string>
+    <string name="splash_exit">关闭软件</string>
+    <string name="txt_connecting">连接中…</string>
+    <string name="btn_copy">复制</string>
+    <string name="init_txt">点击下方 <u>获取</u> 按钮将随机获得3个地址。\n一个官方域名，两个反向追踪域名。\n官方可用优先选择官方域名。\n\n如果以上地址都不能访问，请尝试使用代理或自定义域名访问。</string>
+    <string name="init_get_host">获取</string>
+    <string name="init_error">连接错误</string>
+    <string name="init_connect">连接中…</string>
+    <string name="clean_cache_only_read">仅阅读记录</string>
+
+    <string-array name="list_mode">
+        <item>卡片模式</item>
+        <item>竖直单栏</item>
+        <item>竖直双栏</item>
+        <item>竖直三栏</item>
+    </string-array>
+
+    <string-array name="first_fragment">
+        <item>@string/app_title_flag</item>
+        <item>@string/app_title_age</item>
+        <item>@string/app_title_tech</item>
+        <item>@string/app_title_favorite</item>
+        <item>@string/app_title_mz_zp</item>
+        <item>@string/app_title_mz_jp</item>
+        <item>@string/app_title_mz_tw</item>
+        <item>@string/app_title_mz_qc</item>
+        <item>@string/app_title_mz_xg</item>
+    </string-array>
+</resources>
